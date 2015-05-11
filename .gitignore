@@ -18,3 +18,5 @@
 /config/secrets.yml
 /config/database.yml
 /db/schema.rb
+spree.yml
+public/spree/*

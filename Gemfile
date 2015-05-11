@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.9'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -45,3 +46,4 @@ end
 gem 'spree', git: 'https://github.com/spree/spree.git', branch: '2-4-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
+gem 'spree_simple_sales', :path => '../spree_simple_sales1'
