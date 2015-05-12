@@ -11,5 +11,4 @@ Deface::Override.new( virtual_path: "spree/admin/products/_form",
                             </div>
                           </div> },
                       name: 'product_published'
-
                       )

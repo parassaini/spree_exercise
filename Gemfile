@@ -46,4 +46,4 @@ end
 gem 'spree', git: 'https://github.com/spree/spree.git', branch: '2-4-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
-gem 'spree_simple_sales', :path => '../spree_simple_sales1'
+

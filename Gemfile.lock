@@ -74,12 +74,6 @@ GIT
     spree_sample (2.4.8.beta)
       spree_core (= 2.4.8.beta)
 
-PATH
-  remote: ../spree_simple_sales1
-  specs:
-    spree_simple_sales (2.4.0)
-      spree_core (~> 2.4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -330,7 +324,6 @@ DEPENDENCIES
   spree!
   spree_auth_devise!
   spree_gateway!
-  spree_simple_sales!
   sqlite3
   therubyracer
   turbolinks
