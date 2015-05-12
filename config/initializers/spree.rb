@@ -13,3 +13,4 @@ end
 
 Spree.user_class = "Spree::LegacyUser"
 Spree::Api::Config[:requires_authentication] = false
+Spree::PermittedAttributes.product_attributes.push :published
